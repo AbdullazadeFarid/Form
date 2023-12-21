@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  gap: 5%;
+  margin-left: 13%;
+  background-color: #eef1f4;
+  margin-top: 3%;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  gap: 8%;
+}
+.back .back_link .back_icon {
+  border-radius: 50%;
+  background-color: #fff;
+  width: 32px;
+}
+
+.content .content_title {
+  font-size: 42px;
+}
+.content .text {
+  font-size: 20px;
+  color: #64748b;
+}
+.content #form .input_email {
+  position: relative;
+}
+.content #form .input_email .phone_icon {
+  position: absolute;
+  top: 25%;
+  left: 2%;
+}
+.content #form .input_email .email {
+  width: 482px;
+  height: 60px;
+  padding: 3px 28px 3px 40px;
+  border-radius: 11px;
+  background-color: transparent;
+}
+.content #form .input_email .number {
+  width: 482px;
+  height: 60px;
+  padding: 3px 28px 3px 40px;
+  border-radius: 11px;
+  background-color: transparent;
+}
+.content #form .input_mail {
+  position: relative;
+}
+.content #form .input_mail .mail_icon {
+  position: absolute;
+  top: 25%;
+  left: 2%;
+}
+.content #form .input_mail .email {
+  width: 482px;
+  height: 60px;
+  padding: 3px 28px 3px 40px;
+  border-radius: 11px;
+  background-color: transparent;
+}
+.content #form .check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #6e6b6b;
+  font-size: 20px;
+}
+.content #form .check .robot {
+  display: flex;
+  align-items: center;
+}
+.content #form .check .robot .checkbox {
+  width: 31px;
+  height: 35px;
+}
+.content .update_pass {
+  padding: 15px 135px;
+  font-size: 24px;
+  background-color: #5f90db;
+  color: #fff;
+  margin-top: 6%;
+  padding: 15px 216px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.content .update_pass:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=register.css.map */

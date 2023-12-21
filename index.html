@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>registered</title>
+        <link rel="stylesheet" href="./style/index.css">
+    </head>
+
+    <body>
+
+        <div>
+            <img src="./assets/image/Screenshot 2023-12-20 144224.png" alt="">
+        </div>
+        <div class="conteiner">
+
+            <div id="title">
+                <h3 class="firs_title">Hesaba daxil ol</h3>
+                <h4 class="subtitle">Məlumatlarınızı daxil edin</h4>
+            </div>
+
+            <form id="form">
+
+                <div class="label_input_text">
+                    <label for="email" class="email_text">Email və ya mobil nömrə </label>
+                    <div class="input_email">
+                        <img class="user_icon" src="./assets/icon/user (1).svg" alt="user_icon">
+                        <input class="email" type="text" name="email" id="email"  autocomplete="off"
+                            placeholder="hesab@hesab.az və ya 994 00 123 4567">
+                    </div>
+
+                    <div id="mesage_mail"  class="mesage_mail"></div>
+
+                </div>
+
+
+
+                <div class="label_input_password">
+                    <label for="password" class="password_text">Şifrə </label>
+                    <div class="input_text">
+                        <img class="password_icon" src="./assets/icon/lock.svg" alt="user_icon">
+                        <input class="password" type="password" name="password" id="password" placeholder="******">
+
+                        <img class="eye_icon" src="./assets/icon/eye.svg" alt="">
+
+                        <img class="off_eye" src="./assets/icon/eye_off.svg" alt="">
+                    </div>
+                     <div id="mesage_password"  class="mesage_password"></div>
+                </div>
+
+
+                <div class="form_end">
+                    <div class="check">
+                        <input class="checkbox" type="checkbox" name="" id="" checked>
+                        <span class="forget">Yadda saxla</span>
+                    </div>
+                    <a class="forget_password" href="./forgetpass.html">Şifrəni unutmusunuz?</a>
+
+
+                </div>
+
+                <div class="btn">
+
+                    <button class="enter" type="submit">Daxil ol</button>
+                    <a  class="link_regist" href="./register.html">Yeni hesab yaradin</a>
+                </div>
+            </form>
+
+
+
+        </div>
+
+
+
+
+        <script src="./js/index.js"></script>
+    </body>
+
+</html>

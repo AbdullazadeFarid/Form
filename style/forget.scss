@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  gap: 5%;
+  margin-left: 13%;
+  background-color: #eef1f4;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  gap: 8%;
+
+  .back_link {
+    .back_icon {
+      border-radius: 50%;
+      background-color: #fff;
+      width: 32px;
+    }
+  }
+}
+
+.content {
+  .content_title {
+    font-size: 42px;
+  }
+  .text{
+    font-size: 20px;
+    color: #64748b;
+  }
+  #form {
+    .input_email {
+      position: relative;
+      .user_icon {
+        position: absolute;
+        top: 25%;
+        left: 2%;
+      }
+      .email {
+        width: 482px;
+
+        height: 60px;
+        padding: 3px 28px 3px 40px;
+        border-radius: 11px;
+        background-color: transparent;
+      }
+    }
+
+    .check {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #fff;
+      height: 83px;
+      width: 327px;
+      margin-top: 5%;
+
+      .robot {
+        display: flex;
+        align-items: center;
+
+        .checkbox {
+          width: 31px;
+          height: 35px;
+        }
+      }
+    }
+  }
+  .update_pass {
+    padding: 15px 135px;
+    font-size: 24px;
+    background-color: #5f90db;
+    color: #fff;
+    margin-top: 6%;
+    padding: 15px 216px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+}
+
